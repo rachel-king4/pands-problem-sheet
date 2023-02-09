@@ -1,5 +1,6 @@
 # bank.py
-# This program reads in two amounts, adds them together and prints them out in readable format with € sign and deciml point between the euro and cent
+# This program reads in two amounts, adds them together
+# and prints them out in readable format with € sign and decimal point between the euro and cent
 # author: Rachel King
 
 
