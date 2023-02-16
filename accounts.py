@@ -1,4 +1,4 @@
-# pythonaccounts.py
+# accounts.py
 # This program reads in a 10 character account amount
 # outputs acc number with only last 4 digits showing (and first 6 as Xs)
 # author: Rachel King
@@ -28,7 +28,7 @@ for number in replaced_numbers_in_account:
 
 
 # to ensure acc number entered has more than 4 digits
-if len(account_number2) < 4:
+if len(account_number2) < 5:
     print("Error - not enough digits entered!")
 else:
      print(f"{replaced_numbers_in_account}{secure_display_acc_number2}")
