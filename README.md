@@ -12,9 +12,13 @@ For the extra problem to modify the program to deal with acc numbers of any leng
 As the slicing of the string to separate the last 4 digits was already covered in my initial program in pythonaccounts.py, I sliced the string to separate out everything up to the last 4 digits of the acc number. To replace these digits I used information and code from https://www.geeksforgeeks.org/python-replace-all-numbers-by-k-in-given-string/ . In particular I used the "for if" code to replace the digits with an "X"
 
 I would like to be able to keep the spaces and only replace the digits with an X, while also keeping any spaces at the end and still displaying the last 4 digits. For example if acc number was 01 4567 89, the output would be XX XX67 89 (I can do this if there is never a space entered in last 4 digits, but it there is it messes up the code a bit and seems to have an extra X or digit). So I left it to remove the spaces for now and just output an account number of any length greater than 4 with only the last 4 digits showing.
-amount1 = int(input("Enter amount1(in cent):"))
 
 
 ### **References/Comments for collatz.py problem:**
 #
 For this, I used a while loop to keep running the code until the number reached 1. I used information from the lecture videos to run the while loop (eg while number != 1 do something, then once number reached one, stop)
+
+
+### **References/Comments for weekday.py problem:**
+#
+I used informaton and code from Stack Overflow to solve this problem. https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python is the specific link i took the code from. The date is imported and the date.weekday() assigns integers 0 to Monday, 1 to Tuesday and so on. These integers are then used to tell the the computer what to do in the for loop.
