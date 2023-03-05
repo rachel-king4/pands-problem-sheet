@@ -1,5 +1,5 @@
 # weekday.py
-# This program outuputs whether or not today is a weekday
+# This program outputs whether or not today is a weekday
 # author: Rachel King
 
 from datetime import date
