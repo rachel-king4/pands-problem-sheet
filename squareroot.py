@@ -14,7 +14,7 @@ def sqrt(n) :
     while (1) :
         count += 1
  
-        # Calculate more closed x
+        # Calculate estimate
         root = 0.5 * (x + (n / x))
  
         # Check for closeness                   # this is to set how accurate we want the result to be
@@ -26,11 +26,9 @@ def sqrt(n) :
  
     return root
  
-# Driver code
-if __name__ == "__main__" :
  
-    n = float(input("Please enter a postive number: "))
+n = float(input("Please enter a postive number: "))
  
-    answer = float(sqrt(n))
-    answer_rounded = "{:.1f}".format(answer)
-    print(f"The square root of {n} is approx. {answer_rounded}")
+answer = float(sqrt(n))
+answer_rounded = "{:.1f}".format(answer)
+print(f"The square root of {n} is approx. {answer_rounded}")
