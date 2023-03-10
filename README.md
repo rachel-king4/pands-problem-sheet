@@ -34,3 +34,13 @@ In this method,
 
 A while loop is used to iterate the method over and over until the required tolerance has been reached. I set the tolerance to be 0.0001, so it will stop once the differnece between the assumed root and the correct root is less than 0.0001.
 It then formats the answer to one decimal place and prints it out.
+
+
+### **References/Comments for es.py problem:**
+#
+I used https://www.gutenberg.org/files/2701/old/moby10b.txt to get the moby_dick.txt file - I created a moby_dick.txt file and copied & pasted the text from this link.
+I used code from https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ which counts the number of times a letter appears in a text file in Python.
+The program reads the file, and uses the built-in count method with the argumentas the letter "e" to count the number of times "e" appears in the txt file and diplays the count of the letter "e".
+I then used code from https://askubuntu.com/questions/1059579/input-the-filename-in-the-commandline-as-an-argument-in-python to enable the program to take the filename from an argument on the command-line.
+    - sys.agv is a list of all the command-line arguments passed to the script
+    - sys.argv[1] contains the first command-line argument passed to the script
