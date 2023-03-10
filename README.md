@@ -30,9 +30,9 @@ I used information from Andrew's lecture about functions and code from https://w
 I researched Newton's Method for approximating square roots.
 
 In this method:
-    * N is any number, the square root of N can be given by the formula: 
+⋅⋅⋅* N is any number, the square root of N can be given by the formula: 
             root = 0.5 * (X + (N / X)) 
-    * X is any assumed square root of N and root is the correct square root of N
+⋅⋅⋅* X is any assumed square root of N and root is the correct square root of N
 
 A while loop is used to iterate the method over and over until the required tolerance has been reached. I set the tolerance to be 0.0001, so it will stop once the differnece between the assumed root and the correct root is less than 0.0001.
 It then formats the answer to one decimal place and prints it out.
@@ -47,5 +47,5 @@ I used code from https://www.geeksforgeeks.org/count-the-number-of-times-a-lette
 The program reads the file, and uses the built-in count method with the argumentas the letter "e" to count the number of times "e" appears in the txt file and diplays the count of the letter "e".
 
 I then used code from https://askubuntu.com/questions/1059579/input-the-filename-in-the-commandline-as-an-argument-in-python to enable the program to take the filename from an argument on the command-line.
-    * sys.agv is a list of all the command-line arguments passed to the script
-    * sys.argv[1] contains the first command-line argument passed to the script
+⋅⋅⋅* sys.agv is a list of all the command-line arguments passed to the script
+⋅⋅⋅* sys.argv[1] contains the first command-line argument passed to the script
