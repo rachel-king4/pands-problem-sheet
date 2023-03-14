@@ -6,7 +6,7 @@ import sys
 FILENAME = sys.argv[1]                  # this ensures the program takes the filename from an argument on the command line
 
 # explicit function to return the letter count
-def letter_frequency(fileName, letter):
+def letter_frequency(FILENAME, letter):
     # open file in read mode
     with open(FILENAME, 'r') as f:
         data = f.read()

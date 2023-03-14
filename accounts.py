@@ -9,6 +9,11 @@ secure_display_acc_number = account_number[-4:]  # this slices the string to sep
 # to print masked acc number
 print(f"XXXXXX{secure_display_acc_number}")
 
+
+
+
+
+
 # modified to deal with acc numbers of any length
 # assumed number is positive and an integer, also assumed account number has more than 4 digits
 # what if account number has spaces
