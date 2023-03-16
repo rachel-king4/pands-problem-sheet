@@ -53,3 +53,11 @@ The program reads the file, and uses the built-in count method with the argument
 I then used code from https://askubuntu.com/questions/1059579/input-the-filename-in-the-commandline-as-an-argument-in-python to enable the program to take the filename from an argument on the command-line.
 * sys.agv is a list of all the command-line arguments passed to the script
 * sys.argv[1] contains the first command-line argument passed to the script
+
+
+
+### **References/Comments for plottask.py problem:**
+#
+I used information from your lecture videos for week 08 and from Stack Overflow (https://stackoverflow.com/questions/70937689/plotting-multiple-line-graphs-in-matplotlib) for inspiration for the program plottask.py
+
+I intend to add more formatting to the plot 
