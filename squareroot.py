@@ -26,8 +26,17 @@ def sqrt(n) :
  
     return root
  
- 
-n = float(input("Please enter a postive number: "))
+
+def amount(message = "Please enter a postive number: "):
+    num = False
+    while (not num):
+        try:
+            num = float(input(message))
+        except ValueError:
+            print("That was not a number: ",end="")
+    return num
+
+n = amount()
  
 answer = float(sqrt(n))
 answer_rounded = "{:.1f}".format(answer)

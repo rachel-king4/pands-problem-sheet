@@ -4,8 +4,18 @@
 # author: Rachel King
 
 
-amount1 = int(input("Enter amount1(in cent):"))
-amount2 = int(input("Enter amount2(in cent):"))
+def amount(message = "Enter amount1(in cent): "):
+    num = False
+    while (not num):
+        try:
+            num = int(input(message))
+        except ValueError:
+            print("That was not a number: ",end="")
+    return num
+
+amount1 = amount()
+amount2 = amount("Enter amount2(in cent): ")
+
 total = (amount1 + amount2)/100
 txt = "The sum of these is €{:.2f}"
 print(txt.format(total))
