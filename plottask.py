@@ -12,7 +12,7 @@ numbers = np.random.normal(loc=5, scale=2, size=1000)    # loc is the mean, scal
 
 plt.hist(numbers, label="histogram")    # this creates a histogram plot of a normal distribution of 1000 values with mean of 5 and standard deviation of 2
 
-x = np.array(range(0,10))   # this sets the range of x from 0 to 9
+x = np.array(range(0,11))   # this sets the range of x from 0 to 9
 y = x**3                    # to set y = x cubed
 
 plt.plot(x, y, color='r', label="h(x) = x^3") # this plots the function y = x cubed
