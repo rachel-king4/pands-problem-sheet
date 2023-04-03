@@ -177,3 +177,4 @@ I used information from the lecture videos for week 08 and from Stack Overflow (
 
 The plot is saved to the same directory, and looks like this:
 
+![plottask.py output](https://github.com/rachel-king4/pands-problem-sheet/blob/main/plottask.png)
