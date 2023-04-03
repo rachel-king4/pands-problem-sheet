@@ -1,24 +1,24 @@
-# **pands-problem-sheet**
+# **pands-problem-sheet** #
 
 
 This repository stores all of the weekly tasks assigned in the Pands module.
 
 The Pands module was undertaken in the first semester of Higher Diploma in Science in Computing in Data Analytics.
 
-A list of the weekly tasks are as follows:
+## **Table of Contents** ##
 
- - [Helloworld.py](helloworld.py)
- - [Bank.py](#bank.py)
- - [Accounts.py](#accounts.py) 
- - [Collatz.py](#collatz.py)
- - [Weekday.py](#weekday.py)
- - [Squareroot.py](#squareroot.py)
- - [Es.py](#es.py)
- - [Plottask.py](#plottask.py)
+ - [Helloworld](#helloworld)
+ - [Bank](#bank)
+ - [Accounts](#accounts) 
+ - [Collatz](#collatz)
+ - [Weekday](#weekday)
+ - [Squareroot](#squareroot)
+ - [Es](#es)
+ - [Plottask](#plottask)
 
-#
-## **Helloworld.py**
-#
+
+## **Helloworld** ##
+
 
 ```
 Commit and push a file to the problem sheet called helloworld.py
@@ -27,9 +27,9 @@ This file should contain a python program that displays Hello World! when it is 
 
 This program contains one line of code, which simply uses the print function to print the string "Hello World!"
 
-#
-## **Bank.py**
-#
+
+## **Bank** ##
+
 
 ```
 Write a program called bank.py 
@@ -49,9 +49,9 @@ The output was also formatted to display the amount to two decimal places, as th
 
 I used information from w3schools, https://www.w3schools.com/python/python_string_formatting.asp . I copied in the code for formatting a value to two decimal places, this ensures if total of both numbers added together had a trailing zero, this trailing zero would be included.
 
-#
-## **Accounts.py**
-#
+
+## **Accounts** ##
+
 
 ```
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs)
@@ -71,9 +71,9 @@ I thought that the numbers would be integers and assumed the account number woul
 
 The code then converts the number to a string for the purpose of slicing. It slices the string to separate the last 4 digits and then slices the string to separate out everything up to the last 4 digits of the account number. To replace these digits I used information and code from https://www.geeksforgeeks.org/python-replace-all-numbers-by-k-in-given-string/ . In particular I used the "for if" code to replace the digits with an "X"
 
-#
-## **Collatz.py**
-#
+
+## **Collatz** ##
+
 
 ```
 Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
@@ -88,9 +88,9 @@ I used a while loop to keep running the code until the number reached 1. The cod
 
 I used information from the lecture videos to run the while loop (eg while number != 1 do something, then once number reached one, stop) and to get the output to print on one line, with a space in between each number.
 
-#
-## **Weekday.py**
-#
+
+## **Weekday** ##
+
 
 ```
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
@@ -104,9 +104,9 @@ The program was ran on both a weekday and a weekend in order to be sure the prog
 
 I used informaton and code from Stack Overflow to solve this problem.
  https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python is the specific link i took the code from.
-#
-## **Squareroot.py**
-#
+
+## **Squareroot** ##
+
 
 ```
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
@@ -127,9 +127,9 @@ It then formats the answer to one decimal place and prints it out.
 
 I used information from the lecture about functions and code from https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ to solve this problem.
 
-#
-## **Es.py**
-#
+
+## **Es** ##
+
 
 ```
 Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
@@ -152,9 +152,9 @@ I then used code from https://askubuntu.com/questions/1059579/input-the-filename
 * sys.argv[1] contains the first command-line argument passed to the script
 
 
-#
-## **Plottask.py**
-#
+
+## **Plottask** ##
+
 
 ```
 Write a program called plottask.py that displays:
