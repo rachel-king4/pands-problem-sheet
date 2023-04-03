@@ -15,9 +15,10 @@ plt.hist(numbers, label="histogram")    # this creates a histogram plot of a nor
 x = np.array(range(0,10))   # this sets the range of x from 0 to 9
 y = x**3                    # to set y = x cubed
 
-plt.plot(x, y, color='r', label="plot of function") # this plots the function y = x cubed
+plt.plot(x, y, color='r', label="h(x) = x^3") # this plots the function y = x cubed
 plt.title("plottask.py")                            # this adds the title
 plt.xlabel("X-axis data")                           # this adds a label to x axis
 plt.ylabel("Y-axis data")                           # this adds a label to y axis
 plt.legend()                                        # this adds a legend to the plot
-plt.show()                                          # this shows the plot
+plt.xlim([0, 10])                      # this sets the x axis to display from 0-10 only
+plt.savefig("plottask.png")            # this saves the plot as a figure in the same folder

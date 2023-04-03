@@ -5,8 +5,8 @@
 # and if value is even, divides by two; if value is odd, mulitplies by three and adds one
 # author: Rachel King
 
-def amount(message = "Please enter a positive integer: "):
-    num = False
+def amount(message = "Please enter a positive integer: "):  # to prompt user input
+    num = False                                             # error handling
     while (not num):
         try:
             num = int(input(message))
@@ -14,7 +14,7 @@ def amount(message = "Please enter a positive integer: "):
             print("That was not a number: ",end="")
     return num
 
-number = amount()                           # to prompt user input
+number = amount()                           
 
 while number != 1:                          # while loop keeps the sequence going while number is not 1
     print(number, end=" ")

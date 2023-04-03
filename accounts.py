@@ -34,14 +34,13 @@ def amount2(message = "Please enter an account number: "):
     return num
 
 account_number2 = str(amount2())
-no_spaces = account_number2.replace(" ", "")  # this is to remove any spaces and ensure 4 digits are displayed at the end
-secure_display_acc_number2 = no_spaces[-4:]   # this slices the string to separate the last 4 digits
+secure_display_acc_number2 = account_number2[-4:]   # this slices the string to separate the last 4 digits
 
 # to mask all digits except last 4
 # slice account number for all digits up to last 4
 # and replace all digits with an X
 
-replaced_numbers_in_account = no_spaces[:-4]
+replaced_numbers_in_account = account_number2[:-4]
 for number in replaced_numbers_in_account:
     if number.isdigit():
         replaced_numbers_in_account = replaced_numbers_in_account.replace(number, "X")
