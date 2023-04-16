@@ -11,7 +11,7 @@ def amount(message = "Please enter a positive integer: "):  # to prompt user inp
         try:
             num = int(input(message))
         except ValueError:
-            print("That was not a number: ",end="")
+            print("That was not a number: ")
     return num
 
 number = amount()                           

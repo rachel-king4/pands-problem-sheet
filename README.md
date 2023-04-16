@@ -43,11 +43,13 @@ Print out the answer in a human readable format with a euro sign and decimal poi
 
 This program uses the input function to prompt the user to input two money amounts in cents.
 It then uses a mathematical formula to add them together and outputs the calculated amount in the format euros and cents with a decimal point and the € sign.
-This required some formatting to be applied to the output calulation.
 
-The output was also formatted to display the amount to two decimal places, as this is the way funds are typically displayed.
+Floor division was used (//) in order to get the quotient (i.e. the euros) when the input amounts are added together and divided by 100.
+The modulo operator (%) was used to get the remainder when the input amounts are added together and divided by 100. 
+These were stored as two separate variables (quotient and remainder) and then printed out with the € sign and a decimal point to make the output legible.
 
-I used information from w3schools, https://www.w3schools.com/python/python_string_formatting.asp . I copied in the code for formatting a value to two decimal places, this ensures if total of both numbers added together had a trailing zero, this trailing zero would be included.
+I used information from https://blog.teclado.com/pythons-modulo-operator-and-floor-division/ , which explained floor division and modulo operator and had code which I used for doing the mathematical calculations and outputting the value in the correct format.
+
 
 
 ## **Accounts** ##

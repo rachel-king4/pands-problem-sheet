@@ -9,7 +9,7 @@ def amount(message = "Please enter a 10 digit account number: "):
         try:
             num = int(input(message))
         except ValueError:
-            print("That was not a number: ",end="")
+            print("That was not a number. ",end="")
     return num
 
 account_number = str(amount())
@@ -30,7 +30,7 @@ def amount2(message = "Please enter an account number: "):
         try:
             num = int(input(message))
         except ValueError:
-            print("That was not a number: ",end="")
+            print("That was not a number. ",end="")
     return num
 
 account_number2 = str(amount2())

@@ -16,6 +16,7 @@ def amount(message = "Enter amount1(in cent): "):
 amount1 = amount()
 amount2 = amount("Enter amount2(in cent): ")
 
-total = (amount1 + amount2)/100
-txt = "The sum of these is €{:.2f}"
-print(txt.format(total))
+
+quotient = (amount1 + amount2) // 100       # this uses floor division to get the numbers added together divided by 100 without the remainder
+remainder = (amount1 + amount2) % 100       # this gets the remainder (i.e. the cents) once the numbers are added together and divided by 100
+print(f"The sum of these is €{quotient}.{remainder}") #to print the answer in a legible manner
